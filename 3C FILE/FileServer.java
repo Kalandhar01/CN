@@ -15,7 +15,7 @@ Socket socket = ssock.accept();
 //The InetAddress specification
 InetAddress IA = InetAddress.getByName("localhost");
 //Specify the file
-File file = new File("G:\\My Drive\\CN\\3C\\copy.txt");
+File file = new File("G:\\My Drive\\CN\\3C FILE\\main.txt");
 FileInputStream fis = new FileInputStream(file);
 
 BufferedInputStream bis = new BufferedInputStream(fis);

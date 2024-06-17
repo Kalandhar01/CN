@@ -11,7 +11,7 @@ public static void main(String[] args) throws Exception
 Socket socket = new Socket(InetAddress.getByName("localhost"), 5000);
 byte[] contents = new byte[10000];
 
-FileOutputStream fos = new FileOutputStream("G:\\My Drive\\CN\\3C\\text.txt");
+FileOutputStream fos = new FileOutputStream("G:\\My Drive\\CN\\3C FILE\\copy.txt");
 BufferedOutputStream bos = new BufferedOutputStream(fos);
 InputStream is = socket.getInputStream();
 //No of bytes read in one read() call
