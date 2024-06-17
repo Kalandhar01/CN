@@ -1,6 +1,6 @@
 import java.io.*;
 
-class CRC {
+class csc {
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter Generator:");
