@@ -29,6 +29,7 @@ public class EchoServer
     PrintWriter w = new PrintWriter(client.getOutputStream(), true);
     w.println("Welcome to the Java EchoServer. Type 'bye' to close.");
     String line;
+    // G:\My Drive\CN\3A SERVER CLIENT
     do
     {
     line = r.readLine();
